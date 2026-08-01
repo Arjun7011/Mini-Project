@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Ajju Fitness</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Kalam:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+     /* css Reset  */
+     body {
+          font-family: 'Kalam', cursive;
+          color: white;
+          margin: 0px;
+          padding: 0px;
+          background: url(https://images.unsplash.com/photo-1581460484520-bc7c3f533c9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+
+          /* height: 1440px; */
+     }
+
+     .left {
+          /* border: 2px solid red; */
+          display: inline-block;
+          position: absolute;
+          left: 50px;
+          top: 20px;
+
+
+     }
+
+     .left img {
+          width: 111px;
+          height: 71px;
+          margin: 0px 14px;
+
+     }
+
+     .left div {
+          text-align: center;
+          font-size: 31px;
+          position: relative;
+          top: -31px;
+          color: #d9d01d;
+     }
+
+     .mid {
+          /* border: 2px solid yellow; */
+          display: block;
+          width: 46%;
+          margin: 20px auto;
+
+
+     }
+
+
+     .right {
+          /* border: 2px solid green; */
+          position: absolute;
+          right: 34px;
+          top: 31px;
+          display: inline-block;
+     }
+
+     .navbar {
+          display: inline-block;
+
+     }
+
+     .navbar li {
+          display: inline-block;
+          font-size: 25px;
+     }
+
+     .navbar li a {
+          color: white;
+          text-decoration: none;
+          padding: 34px 23px;
+     }
+
+     .navbar li a:hover,
+     .navbar li a.active {
+          text-decoration: underline;
+          color: rgb(190 173 173);
+
+     }
+
+     .btn {
+          margin: 3px 9px;
+          padding: 4px 14px;
+          background-color: black;
+          color: white;
+          border-radius: 14px;
+          cursor: pointer;
+          font-size: 15px;
+          font-family: 'Kalam', cursive;
+     }
+
+     .btn:hover {
+
+          background-color: rgb(51, 46, 46);
+          color: lightgreen;
+
+     }
+
+     .container {
+          border: 2px solid white;
+          margin: 76px 120px;
+          padding: 33px;
+          border-radius: 28px;
+          width: 33%;
+     }
+
+     .form-group input {
+          font-family: 'Kalam', cursive;
+          text-align: center;
+          display: block;
+          width: 400px;
+          padding: 3px;
+          border: 2px solid black;
+          border-radius: 33px;
+          margin: 9px auto;
+          font-size: 15px;
+
+
+     }
+
+     .container h1 {
+          text-align: center;
+     }
+
+     .container button {
+          margin: 20px auto;
+          display: block;
+          width: 300px;
+
+     }
+</style>
+
+<body>
+     <header class="hearder">
+          <!-- left box for logo -->
+          <div class="left">
+               <img src="https://www.shutterstock.com/image-vector/runner-logo-600w-254635207.jpg" alt="">
+               <div>Ajju Fitness</div>
+          </div>
+          <!-- mid box for navbar -->
+          <div class="mid">
+               <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+
+               </ul>
+
+          </div>
+          <!-- right box for buttom -->
+          <div class="right">
+
+               <button class="btn">Call us Now</button>
+               <button class="btn">Email US</button>
+          </div>
+     </header>
+     <div class="container">
+          <h1>Join the best Gym of Delhi Now</h1>
+          <form action="noaction.php">
+               <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+               </div>
+
+               <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+               </div>
+
+               <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+               </div>
+
+               <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+               </div>
+               <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email">
+               </div>
+               <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+               </div>
+               <button class="btn">Submit</button>
+          </form>
+     </div>
+
+</body>
+
+</html>
